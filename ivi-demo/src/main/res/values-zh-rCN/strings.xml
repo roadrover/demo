@@ -1,0 +1,192 @@
+<resources>
+    <string name="app_name">路畅科技演示程序</string>
+    <string name="company">深圳市路畅科技股份有限公司</string>
+    <string name="back">返回</string>
+    <string name="service_connecting">服务连接中...</string>
+    <string name="service_connected">服务已连接...</string>
+    <string name="service_disconnected">服务未连接...</string>
+    <string name="callback">回调</string>
+    <string name="open">打开</string>
+    <string name="close">关闭</string>
+    <string name="turn_to">变成了</string>
+    <string name="register_listener">注册监听</string>
+    <string name="unregister_listener">注销监听</string>
+    <string name="unregister_all_listener">注销所有监听</string>
+
+    <!-- main部分 -->
+    <string name="car">原车</string>
+    <string name="system">系统</string>
+    <string name="radio">收音机</string>
+    <string name="bluetooth">蓝牙</string>
+    <string name="media">多媒体</string>
+    <string name="audio">音频</string>
+    <string name="avin">外部输入</string>
+    <string name="settings">设置</string>
+    <string name="voice">语音</string>
+    <string name="demo_not_allow_empty">演示程序不允许为空！</string>
+    <string name="please_install_roadrover_services">请安装路畅科技服务程序！</string>
+    <string name="please_install_roadrover_bt_service">请安装路畅科技蓝牙服务程序！</string>
+    <string name="please_install_roadrover_settings">请安装路畅科技设置程序！</string>
+    <string name="enter_demo">进入演示程序：</string>
+
+    <!-- 收音部分 -->
+    <string name="set_freq">设置频率：</string>
+    <string name="set_band">设置波段：</string>
+    <string name="scan_all">全部搜索</string>
+    <string name="scan_up">上搜索</string>
+    <string name="scan_down">下搜索</string>
+    <string name="scan_stop">停止搜索</string>
+    <string name="step_up">上微调电台</string>
+    <string name="step_down">下微调电台</string>
+    <string name="set_location">设置区域：</string>
+    <string name="asia">亚洲</string>
+    <string name="europe">欧洲</string>
+    <string name="us">北美洲</string>
+    <string name="latin">南美洲</string>
+
+    <!-- media部分 -->
+    <string name="set_media_info">设置媒体播放信息</string>
+    <string name="set_media_status">设置播放状态</string>
+    <string name="get_media_list">获取媒体播放列表</string>
+    <string name="play">播放</string>
+    <string name="pause">暂停</string>
+    <string name="next">下一曲</string>
+    <string name="prev">上一曲</string>
+    <string name="play_pause">播放/暂停</string>
+    <string name="launch_app">启动app</string>
+    <string name="get_cur_play_info">请求当前播放信息</string>
+    <string name="get_cur_play_state">请求当前播放状态</string>
+    <string name="get_cur_video_permit">请求当前视频是否允许播放</string>
+    <string name="can_media_play">是否允许播放?</string>
+
+    <!-- 蓝牙部分 -->
+    <string name="get_bluetooth_name">获取蓝牙设备名字</string>
+    <string name="get_bluetooth_pin">获取蓝牙设备pin码</string>
+    <string name="get_bluetooth_ver">获取蓝牙模块的版本</string>
+    <string name="get_bluetooth_status">获取蓝牙状态</string>
+    <string name="get_connect_bluetooth_status">获取当前连接的设备状态</string>
+    <string name="search_new_devices">搜索设备</string>
+    <string name="get_paired_list">获取配对列表</string>
+    <string name="get_bluetooth_music_id3_info">id3 信息</string>
+    <string name="bluetooth_music_volume">蓝牙音乐音量:</string>
+    <string name="link_devices">连接设备</string>
+    <string name="unlink_devices">断开连接</string>
+    <string name="link_last_devices">连接最后设备</string>
+    <string name="call">拨号</string>
+    <string name="listen">接听</string>
+    <string name="hangup">挂断</string>
+    <string name="recall">重拨</string>
+    <string name="switch_phone_car">切换语音通道</string>
+
+    <!-- 设置部分 -->
+    <string name="settings_jump_page">跳转设置页面</string>
+    <string name="settings_get_data">获取设置数据</string>
+    <string name="settings_monitor_data">监听设置数据变化</string>
+    <string name="wifi_settings">WIFI设置</string>
+    <string name="mobile_settings">移动网络设置</string>
+    <string name="hotspot_settings">热点设置</string>
+    <string name="bluetooth_pair">蓝牙配对</string>
+    <string name="volume_settings">音量设置</string>
+    <string name="speaker_settings">喇叭设置</string>
+    <string name="eq_settings">均衡器设置</string>
+    <string name="sound_settings">平衡设置</string>
+    <string name="car_door_switch">车门开关</string>
+    <string name="default_navi_package">默认导航设置</string>
+    <string name="ccd_camera">倒车摄像头</string>
+    <string name="ccd_line">倒车轨迹线</string>
+    <string name="ccd_mirror">倒车镜像</string>
+    <string name="wifi_signal_strength">WIFI信号强度</string>
+    <string name="wifi_signal_level">WIFI信号等级</string>
+    <string name="wifi_signal_max_level">WIFI信号最大等级</string>
+    <string name="mobile_signal_strength">移动网络信号强度</string>
+    <string name="mobile_signal_level">移动网络信号等级</string>
+    <string name="hotspot_name">热点名称</string>
+    <string name="hotspot_password">热点密码</string>
+    <string name="app_data_used_space">已使用空间</string>
+
+    <!-- 语音部分 -->
+    <string name="open_voice_app">打开语音应用</string>
+    <string name="start_voice">开始语音</string>
+    <string name="end_voice">结束语音</string>
+    <string name="mute">静音</string>
+    <string name="un_mute">解静</string>
+    <string name="add_volume">增加音量</string>
+    <string name="del_volume">减少音量</string>
+    <string name="set_volume">设置音量</string>
+    <string name="set_play_mode">设置播放模式</string>
+    <string name="switch_music">选择歌曲</string>
+    <string name="play_random">随机播放</string>
+    <string name="play_appoint_music">播放指定歌曲</string>
+    <string name="favour_music">收藏音乐</string>
+    <string name="control_music">控制音乐</string>
+    <string name="control_radio">控制收音</string>
+    <string name="start_scan">开始扫描</string>
+    <string name="stop_scan">停止扫描</string>
+
+    <!-- 原车部分 -->
+    <string name="ccd_status">获取倒车状态</string>
+    <string name="headlight_status">获取大灯状态</string>
+    <string name="mcu_version">获取协议卡MCU版本</string>
+    <string name="car_id">获取车型ID</string>
+    <string name="fl_door">获取前左车门状态</string>
+    <string name="fr_door">获取前右车门状态</string>
+    <string name="hoot">获取发动机盖状态</string>
+    <string name="trunk">获取后尾箱盖状态</string>
+    <string name="turn_left_light">获取左转向灯状态</string>
+    <string name="turn_right_light">获取右转向灯状态</string>
+    <string name="emergency_light">获取双闪灯状态</string>
+
+    <!-- 音频 -->
+    <string name="get_master_volume">获取音量</string>
+    <string name="set_master_volume">设置音量</string>
+    <string name="show_volume_bar">显示音量条</string>
+    <string name="set_volume_bar_listener">设置音量条监听</string>
+    <string name="get_active_volume_id">获取当前激活的音频</string>
+    <string name="get_user_eq_gains">获取自定义音效</string>
+    <string name="get_pop_eq_gains">获取流行音效</string>
+    <string name="get_live_eq_gains">获取现场音效</string>
+    <string name="request_internal_short_mute">请求500ms内部静音</string>
+    <string name="set_analog_media_volume_percent">设置导航媒体音量40%</string>
+    <string name="get_master_audio_channel">获取主通道</string>
+
+    <!-- System部分 -->
+    <string name="day_brightness">白天亮度</string>
+    <string name="night_brightness">晚上亮度</string>
+    <string name="get_current_brightness_id">获取亮度id</string>
+    <string name="get_current_brightness">获取亮度</string>
+    <string name="get_max_brightness">获取最大亮度</string>
+    <string name="open_back_light">打开背光</string>
+    <string name="close_back_light">关闭背光</string>
+    <string name="is_open_back_light">背光是否打开</string>
+    <string name="close_app">关闭指定app</string>
+    <string name="close_all_app">关闭所有app</string>
+    <string name="get_not_run_apps">获取未允许的列表</string>
+    <string name="get_memory_app">获取记忆app</string>
+    <string name="open_memory_app">打开记忆app</string>
+    <string name="open_navi_app">打开导航app</string>
+    <string name="open_gps_listener">打开gps监听</string>
+    <string name="close_gps_listener">关闭gps监听</string>
+    <string name="reboot">重启</string>
+    <string name="recovery">恢复出厂设置</string>
+    <string name="upgrade_system">升级系统</string>
+    <string name="cancel_upgrade">取消升级</string>
+    
+    <!-- AVIn部分-->
+    <string name="open_camera">打开摄像头</string>
+    <string name="camera_already_open">摄像头已打开</string>
+    <string name="close_camera">关闭摄像头</string>
+    <string name="camera_already_close">摄像头已关闭</string>
+    <string name="page_close_camera">页面离开，关闭摄像头</string>
+    <string name="brightness">亮度</string>
+    <string name="contrast">对比度</string>
+    <string name="saturation">饱和度</string>
+    <string name="hue">色度</string>
+    <string name="reset_video_param">重设视频参数</string>
+    <string name="get_cvbs_video_type">获取摄像头制式</string>
+    <string name="get_video_signal">获取视频信号</string>
+    <string name="video_permit">获取视频是否允许观看</string>
+    <string name="tv_search">控制TV搜索</string>
+    <string name="tv_prev">控制TV上一曲</string>
+    <string name="tv_next">控制TV下一曲</string>
+    <string name="tv_touch">发送TV触摸</string>
+</resources>

@@ -1,0 +1,4 @@
+include ':ivi-demo'
+
+include ':sdk'
+project(":sdk").projectDir = new File("../sdk")

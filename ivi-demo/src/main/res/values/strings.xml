@@ -1,0 +1,192 @@
+<resources>
+    <string name="app_name">Roadrover IVI Demo</string>
+    <string name="company">Shenzhen RoadRover Technology Co.,Ltd</string>
+    <string name="back">Back</string>
+    <string name="service_connecting">Service connecting...</string>
+    <string name="service_connected">Service connected...</string>
+    <string name="service_disconnected">Service disconnected...</string>
+    <string name="callback">Callback</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="turn_to">become</string>
+    <string name="register_listener">Register listener</string>
+    <string name="unregister_listener">Unregister listener</string>
+    <string name="unregister_all_listener">Unregister all listeners</string>
+
+    <!-- main部分 -->
+    <string name="car">Car</string>
+    <string name="system">System</string>
+    <string name="radio">Radio</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="media">Media</string>
+    <string name="audio">Audio</string>
+    <string name="avin">AVIn</string>
+    <string name="settings">Settings</string>
+    <string name="voice">Voice</string>
+    <string name="demo_not_allow_empty">Demo programs are not allowed to empty!</string>
+    <string name="please_install_roadrover_services">Please install the Roadrover technology service program!</string>
+    <string name="please_install_roadrover_bt_service">Please install Bluetooth technology Roadrover service program!</string>
+    <string name="please_install_roadrover_settings">Please install Settings technology Roadrover service program!</string>
+    <string name="enter_demo">Entering demo program:</string>
+
+    <!-- 收音部分 -->
+    <string name="set_freq">Set frequency:</string>
+    <string name="set_band">Set band:</string>
+    <string name="scan_all">Scan all</string>
+    <string name="scan_up">Scan up</string>
+    <string name="scan_down">Scan down</string>
+    <string name="scan_stop">Scan stop</string>
+    <string name="step_up">Step up</string>
+    <string name="step_down">Step down</string>
+    <string name="set_location">Set location:</string>
+    <string name="asia">Asia</string>
+    <string name="europe">Europe</string>
+    <string name="us">US</string>
+    <string name="latin">Latin</string>
+
+    <!-- media部分 -->
+    <string name="set_media_info">set play media info</string>
+    <string name="set_media_status">set play status</string>
+    <string name="get_media_list">get media list</string>
+    <string name="play">play</string>
+    <string name="pause">pause</string>
+    <string name="next">next</string>
+    <string name="prev">prev</string>
+    <string name="play_pause">play/pause</string>
+    <string name="launch_app">launch App</string>
+    <string name="get_cur_play_info">get current play info</string>
+    <string name="get_cur_play_state">get current play state</string>
+    <string name="get_cur_video_permit">get current video permit</string>
+    <string name="can_media_play">Can Media Play?</string>
+
+    <!-- 蓝牙部分 -->
+    <string name="get_bluetooth_name">get bluetooth name</string>
+    <string name="get_bluetooth_pin">get bluetooth pin</string>
+    <string name="get_bluetooth_ver">get bluetooth ver</string>
+    <string name="get_bluetooth_status">get bluetooth status</string>
+    <string name="get_connect_bluetooth_status">get connect bluetooth status</string>
+    <string name="search_new_devices">search new devices</string>
+    <string name="get_paired_list">get paired list</string>
+    <string name="get_bluetooth_music_id3_info">id3 info</string>
+    <string name="bluetooth_music_volume">bluetooth music volume:</string>
+    <string name="link_devices">link devices</string>
+    <string name="unlink_devices">unlink devices</string>
+    <string name="link_last_devices">link last devices</string>
+    <string name="call">call</string>
+    <string name="listen">listen</string>
+    <string name="hangup">hangup</string>
+    <string name="recall">recall</string>
+    <string name="switch_phone_car">switch voice</string>
+
+    <!-- 设置部分 -->
+    <string name="settings_jump_page">Jump settings page</string>
+    <string name="settings_get_data">Get settings data</string>
+    <string name="settings_monitor_data">Monitor setting data changes</string>
+    <string name="wifi_settings">WIFI settings</string>
+    <string name="mobile_settings">Mobile network settings</string>
+    <string name="hotspot_settings">Hotspot settings</string>
+    <string name="bluetooth_pair">Bluetooth pairing</string>
+    <string name="volume_settings">Volume Setting</string>
+    <string name="speaker_settings">speaker Setting</string>
+    <string name="eq_settings">Equalizer settings</string>
+    <string name="sound_settings">Balance setting</string>
+    <string name="car_door_switch">Car door switch</string>
+    <string name="default_navi_package">Default navigation settings</string>
+    <string name="ccd_camera">CCD camera</string>
+    <string name="ccd_line">CCD line</string>
+    <string name="ccd_mirror">CCD mirror</string>
+    <string name="wifi_signal_strength">WIFI signal strength</string>
+    <string name="wifi_signal_level">WIFI signal level</string>
+    <string name="wifi_signal_max_level">WIFI signal max level</string>
+    <string name="mobile_signal_strength">Mobile signal strength</string>
+    <string name="mobile_signal_level">Mobile signal level</string>
+    <string name="hotspot_name">Hotspot name</string>
+    <string name="hotspot_password">Hotspot password</string>
+    <string name="app_data_used_space">Used space</string>
+
+    <!-- 语音部分 -->
+    <string name="open_voice_app">open voice app</string>
+    <string name="start_voice">start voice</string>
+    <string name="end_voice">end voice</string>
+    <string name="mute">mute</string>
+    <string name="un_mute">un mute</string>
+    <string name="add_volume">add volume</string>
+    <string name="del_volume">del volume</string>
+    <string name="set_volume">set volume</string>
+    <string name="set_play_mode">set play mode</string>
+    <string name="switch_music">switch music</string>
+    <string name="play_random">play random</string>
+    <string name="play_appoint_music">play appoint music</string>
+    <string name="favour_music">favour music</string>
+    <string name="control_music">control music</string>
+    <string name="control_radio">control radio</string>
+    <string name="start_scan">start scan</string>
+    <string name="stop_scan">stop scan</string>
+
+    <!-- 原车部分 -->
+    <string name="ccd_status">Get ccd status</string>
+    <string name="headlight_status">Get headlight status</string>
+    <string name="mcu_version">Get protocol mcu version</string>
+    <string name="car_id">Get car id</string>
+    <string name="fl_door">Get front left door status</string>
+    <string name="fr_door">Get front right door status</string>
+    <string name="hoot">Get hoot status</string>
+    <string name="trunk">Get trunk status</string>
+    <string name="turn_left_light">Get turn left light status</string>
+    <string name="turn_right_light">Get turn right light status</string>
+    <string name="emergency_light">Get emergency light status</string>
+    
+    <!-- 音频 -->
+    <string name="get_master_volume">Get master volume</string>
+    <string name="set_master_volume">Set master volume</string>
+    <string name="show_volume_bar">Show volume bar</string>
+    <string name="set_volume_bar_listener">Set volume bar listener</string>
+    <string name="get_active_volume_id">Get active volume id</string>
+    <string name="get_user_eq_gains">Get user eq gains</string>
+    <string name="get_pop_eq_gains">Get pop eq gains</string>
+    <string name="get_live_eq_gains">Get live eq gains</string>
+    <string name="request_internal_short_mute">Request internal 500ms short mute</string>
+    <string name="set_analog_media_volume_percent">Set analog media volume percent 40%</string>
+    <string name="get_master_audio_channel">Get master audio channel</string>
+
+    <!-- System部分 -->
+    <string name="day_brightness">Day Brightness</string>
+    <string name="night_brightness">Night Brightness</string>
+    <string name="get_current_brightness_id">get brightness id</string>
+    <string name="get_current_brightness">get brightness</string>
+    <string name="get_max_brightness">get max brightness</string>
+    <string name="open_back_light">open Back Light</string>
+    <string name="close_back_light">close Back Light</string>
+    <string name="is_open_back_light">is open back light</string>
+    <string name="close_app">close app</string>
+    <string name="close_all_app">close all app</string>
+    <string name="get_not_run_apps">get not run apps</string>
+    <string name="get_memory_app">get memory app</string>
+    <string name="open_memory_app">open memory app</string>
+    <string name="open_navi_app">open navi app</string>
+    <string name="open_gps_listener">open gps listener</string>
+    <string name="close_gps_listener">close gps listener</string>
+    <string name="reboot">reboot</string>
+    <string name="recovery">recovery</string>
+    <string name="upgrade_system">upgrade system</string>
+    <string name="cancel_upgrade">cancel upgrade</string>
+
+    <!-- AVIn部分-->
+    <string name="open_camera">Open camera</string>
+    <string name="camera_already_open">Camera already open</string>
+    <string name="close_camera">Close camera</string>
+    <string name="camera_already_close">Camera already close</string>
+    <string name="page_close_camera">Page leave, Close camera</string>
+    <string name="brightness">Brightness</string>
+    <string name="contrast">Contrast</string>
+    <string name="saturation">Saturation</string>
+    <string name="hue">Hue</string>
+    <string name="reset_video_param">Reset video param</string>
+    <string name="get_cvbs_video_type">Get CVBS video type</string>
+    <string name="get_video_signal">Get video signal</string>
+    <string name="video_permit">Get video is permit</string>
+    <string name="tv_search">Control TV search</string>
+    <string name="tv_prev">Control TV prev</string>
+    <string name="tv_next">Control TV next</string>
+    <string name="tv_touch">Send TV touch</string>
+</resources>
