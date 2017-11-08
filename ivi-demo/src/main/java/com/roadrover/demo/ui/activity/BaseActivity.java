@@ -42,7 +42,7 @@ import java.util.Map;
 public abstract class BaseActivity extends AppCompatActivity {
 
     private Toast          mToast;               // Toast对象
-    private LinearLayout   mFunctionsLayout;     // 功能按钮区域Layout
+    protected LinearLayout   mFunctionsLayout;     // 功能按钮区域Layout
     private List<TextView> mContentTextViews;    // 内容TextView列表
     private Map<Integer, ProgressBar> mProgressBarMap;  // 进度条Map
 

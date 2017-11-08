@@ -1,8 +1,13 @@
 package com.roadrover.demo.ui.activity;
 
+import android.graphics.Bitmap;
+import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.os.RemoteException;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.roadrover.demo.R;
 import com.roadrover.demo.ui.view.IVIButton;
@@ -10,6 +15,7 @@ import com.roadrover.sdk.media.IVIMedia;
 import com.roadrover.sdk.media.MediaManager;
 import com.roadrover.sdk.media.MediaSqlManager;
 import com.roadrover.sdk.radio.IVIRadio;
+import com.roadrover.sdk.system.IVISystem;
 import com.roadrover.sdk.utils.ListUtils;
 import com.roadrover.services.media.IGetMediaListCallback;
 import com.roadrover.services.media.IMediaInfoCallback;
@@ -27,6 +33,11 @@ public class MediaActivity extends SDKActivity {
     // 媒体管理类对象
     private MediaManager mMediaManager = null;
     private MediaSqlManager mMediaSqlManager = null;
+
+    // 媒体显示区
+    private ImageView mIvArtist = null;
+    private TextView mTvName = null;
+    private TextView mTvArtist = null;
 
     // 媒体扫描的监听
     private IMediaScannerCallback.Stub mIMediaScannerCallback = new IMediaScannerCallback.Stub() {
@@ -185,6 +196,12 @@ public class MediaActivity extends SDKActivity {
                     " info:" + info +
                     " index:" + index +
                     " totalCount:" + totalCount);
+            if (mTvName != null && mTvArtist != null && mIvArtist != null) {
+                mTvName.setText(name);
+                mTvArtist.setText(info);
+                IVIMedia.ArtImage image = new IVIMedia.ArtImage(artWidth, artHeight, artPixels);
+                mIvArtist.setBackground(new BitmapDrawable(image.getBitmap()));
+            }
         }
 
         @Override
@@ -237,6 +254,8 @@ public class MediaActivity extends SDKActivity {
     @Override
     protected void onViewValid() {
         super.onViewValid();
+
+        addMediaLayout();
 
         addIVIButtons(new IVIButton(this, getString(R.string.open) + getString(R.string.media), new View.OnClickListener() {
             @Override
@@ -361,5 +380,18 @@ public class MediaActivity extends SDKActivity {
     @Override
     protected void onViewInvalid() {
         super.onViewInvalid();
+    }
+
+    /**
+     * 添加一个媒体的layout
+     */
+    private void addMediaLayout() {
+        if (mFunctionsLayout != null) {
+            View view = LayoutInflater.from(this).inflate(R.layout.layout_media, mFunctionsLayout);
+
+            mIvArtist = (ImageView) view.findViewById(R.id.iv_artist_image);
+            mTvName   = (TextView) view.findViewById(R.id.tv_name);
+            mTvArtist = (TextView) view.findViewById(R.id.tv_artist);
+        }
     }
 }

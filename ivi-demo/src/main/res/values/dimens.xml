@@ -4,4 +4,6 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
 
     <dimen name="ivi_button_padding">8px</dimen>
+    
+    <dimen name="media_text_size">16sp</dimen>
 </resources>

@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70px"
+    android:layout_marginTop="10px"
+    android:orientation="horizontal">
+
+    <!-- 歌手图片 -->
+    <ImageView
+        android:id="@+id/iv_artist_image"
+        android:layout_width="70px"
+        android:layout_height="70px"
+        android:layout_marginLeft="10px"
+        android:background="@drawable/icon_roadrover"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10px">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/media_text_size"/>
+
+        <TextView
+            android:id="@+id/tv_artist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/media_text_size"/>
+    </LinearLayout>
+</LinearLayout>
