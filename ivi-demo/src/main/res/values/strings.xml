@@ -15,6 +15,7 @@
 
     <!-- main部分 -->
     <string name="car">Car</string>
+    <string name="vehicle_info">Vehicle info</string>
     <string name="system">System</string>
     <string name="radio">Radio</string>
     <string name="bluetooth">Bluetooth</string>
@@ -22,6 +23,7 @@
     <string name="audio">Audio</string>
     <string name="avin">AVIn</string>
     <string name="settings">Settings</string>
+    <string name="storage_device">Storage device</string>
     <string name="voice">Voice</string>
     <string name="demo_not_allow_empty">Demo programs are not allowed to empty!</string>
     <string name="please_install_roadrover_services">Please install the Roadrover technology service program!</string>
@@ -189,4 +191,38 @@
     <string name="tv_prev">Control TV prev</string>
     <string name="tv_next">Control TV next</string>
     <string name="tv_touch">Send TV touch</string>
+
+    <!-- 车载信息 -->
+    <string name="brake">Brake</string>
+    <string name="left_oil">Remained fuel</string>
+    <string name="out_temp">Outside Temp</string>
+    <string name="battery_voltage">Battery voltage</string>
+    <string name="seat_belt">Seatbelt</string>
+    <string name="trunk_state">Luggage compartment</string>
+    <string name="brake_state">Handbrake</string>
+    <string name="lean_water">Washer fluid</string>
+    <string name="motor_speed">Engine speed</string>
+    <string name="speed2">Current speed</string>
+    <string name="mileage">Driving trip</string>
+    <string name="state_low">Low</string>
+    <string name="state_ok">Normal</string>
+    <string name="state_battery_voltage">Low battery！</string>
+    <string name="state_fuel_low">Low fuel level！</string>
+    <string name="state_trunk_on">Luggage comp. open！</string>
+    <string name="state_brake_on">Pls release park brake！</string>
+    <string name="state_brake_ok">Handbrake OK！</string>
+    <string name="state_brake_off">Handbrake lock OK！</string>
+    <string name="state_brake_off2">Handbrake not pulled!</string>
+    <string name="state_brake_hold">Handbrake pulled!</string>
+    <string name="state_belt_off">Pls fasten seat belt！</string>
+    <string name="state_lean_water">Low washer fluid level！</string>
+    <string name="front_right_door_open">Front right door open</string>
+    <string name="front_left_door_open">Front left door open</string>
+    <string name="rear_right_door_open">Rear right door open</string>
+    <string name="rear_left_door_open">Rear left door open</string>
+    <string name="trunk_door_open">Trunk open</string>
+    <string name="trunk_engine_open">Bonnet open</string>
+    <string name="all_door_closed">All doors closed</string>
+    <string name="ccd_info">Check Surroundings Before Backing Up</string>
+    <string name="wg_door_off">Closed</string>
 </resources>

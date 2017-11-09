@@ -20,6 +20,7 @@
         </activity>
 
         <activity android:name=".ui.activity.CarActivity" />
+        <activity android:name=".ui.activity.VehicleInfoActivity"/>
         <activity android:name=".ui.activity.SystemActivity" />
         <activity android:name=".ui.activity.RadioActivity" />
         <activity android:name=".ui.activity.BluetoothActivity" />

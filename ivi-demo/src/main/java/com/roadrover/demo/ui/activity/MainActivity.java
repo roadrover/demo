@@ -19,6 +19,11 @@ public class MainActivity extends BaseActivity {
                 startChildDemo(((IVIButton) v).getText(),
                         CarActivity.class);
             }
+        }), new IVIButton(this, R.string.vehicle_info, new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startChildDemo(((IVIButton) v).getText(), VehicleInfoActivity.class);
+            }
         }), new IVIButton(this, R.string.system, new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -65,7 +70,7 @@ public class MainActivity extends BaseActivity {
                 startChildDemo(((IVIButton) v).getText(),
                         SettingsActivity.class);
             }
-        }), new IVIButton(this, "存储设备", new View.OnClickListener() {
+        }), new IVIButton(this, R.string.storage_device, new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startChildDemo(((IVIButton) v).getText(),

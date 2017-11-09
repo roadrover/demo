@@ -7,12 +7,11 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.support.annotation.LayoutRes;
 import android.support.annotation.StringRes;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutCompat;
 import android.text.TextUtils;
-import android.util.LayoutDirection;
 import android.view.Gravity;
 import android.view.TextureView;
 import android.view.View;
@@ -48,10 +47,14 @@ public abstract class BaseActivity extends AppCompatActivity {
 
     protected String     mTitle;               // 标题文字
 
+    protected @LayoutRes int getLayout() {
+        return R.layout.activity_main;
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(getLayout());
 
         // 获取对象
         mProgressBarMap = new HashMap<>();
@@ -77,12 +80,15 @@ public abstract class BaseActivity extends AppCompatActivity {
         }
 
         // 设置返回按钮功能
-        findViewById(R.id.back).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                BaseActivity.this.finish();
-            }
-        });
+        View backView = findViewById(R.id.back);
+        if (null != backView) {
+            backView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    BaseActivity.this.finish();
+                }
+            });
+        }
     }
 
     @Override
@@ -321,7 +327,10 @@ public abstract class BaseActivity extends AppCompatActivity {
                                 }
                             }
                         }
-                        mContentTextViews.get(0).setText(tips);
+                        TextView textView = mContentTextViews.get(0);
+                        if (null != textView) {
+                            textView.setText(tips);
+                        }
                     }
                 }
             }

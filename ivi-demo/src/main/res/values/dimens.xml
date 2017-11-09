@@ -3,7 +3,43 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
 
+    <dimen name="font_text_96_size">48sp</dimen>
+    <dimen name="font_text_92_size">46sp</dimen>
+    <dimen name="font_text_90_size">45sp</dimen>
+    <dimen name="font_text_84_size">42sp</dimen>
+    <dimen name="font_text_80_size">40sp</dimen>
+    <dimen name="font_text_70_size">35sp</dimen>
+    <dimen name="font_text_62_size">31sp</dimen>
+    <dimen name="font_text_60_size">30sp</dimen>
+    <dimen name="font_text_58_size">29sp</dimen>
+    <dimen name="font_text_56_size">28sp</dimen>
+    <dimen name="font_text_54_size">27sp</dimen>
+    <dimen name="font_text_52_size">26sp</dimen>
+    <dimen name="font_text_50_size">25sp</dimen>
+    <dimen name="font_text_48_size">24sp</dimen>
+    <dimen name="font_text_46_size">23sp</dimen>
+    <dimen name="font_text_44_size">22sp</dimen>
+    <dimen name="font_text_42_size">21sp</dimen>
+    <dimen name="font_text_40_size">20sp</dimen>
+    <dimen name="font_text_38_size">19sp</dimen>
+    <dimen name="font_text_36_size">18sp</dimen>
+    <dimen name="font_text_34_size">17sp</dimen>
+    <dimen name="font_text_32_size">16sp</dimen>
+    <dimen name="font_text_30_size">15sp</dimen>
+    <dimen name="font_text_28_size">14sp</dimen>
+    <dimen name="font_text_26_size">13sp</dimen>
+    <dimen name="font_text_24_size">12sp</dimen>
+    <dimen name="font_text_22_size">11sp</dimen>
+    <dimen name="font_text_20_size">10sp</dimen>
+
     <dimen name="ivi_button_padding">8px</dimen>
     
     <dimen name="media_text_size">16sp</dimen>
+
+    <dimen name="vm_car_info_item_tv_1">@dimen/font_text_48_size</dimen>
+    <dimen name="vm_car_info_right_part_left_margin">35px</dimen>
+    <dimen name="vm_car_info_left_part_margin">58px</dimen>
+    <dimen name="vm_right_part_item_width">163px</dimen>
+    <dimen name="vm_car_info_right_item_right_margin">16px</dimen>
+    <dimen name="vm_car_info_under_item_width">525px</dimen>
 </resources>

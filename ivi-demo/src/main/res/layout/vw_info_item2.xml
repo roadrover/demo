@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/vm_right_part_item_width"
+    android:layout_height="166px"
+    android:layout_marginRight="@dimen/vm_car_info_right_item_right_margin"
+    android:orientation="vertical"
+    android:padding="8px">
+
+    <TextView
+        android:id="@+id/vw_info_item1_title"
+        style="@style/VmCarInfoTextView1"
+        android:layout_width="match_parent"
+        android:layout_marginTop="74px"
+        android:background="@drawable/mid_bg"
+        android:gravity="center"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/vw_info_item1_valume"
+        style="@style/VmCarInfoTextView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="--"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

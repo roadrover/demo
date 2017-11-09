@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="120px"
+        android:layout_height="100px"
+        android:layout_marginStart="10px"
+        android:layout_marginTop="10px"
+        android:gravity="center"
+        android:text="@string/back" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/llLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/vm_car_info_left_part_margin"
+            android:orientation="vertical">
+
+            <!-- |||||||||||||||||||||  车门 -->
+
+            <RelativeLayout
+                android:layout_width="248px"
+                android:layout_height="355px"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/car_bg">
+
+                <LinearLayout
+                    android:id="@+id/llLeftDoor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/vw_front_left_door"
+                        style="@style/img_car_door"
+                        android:layout_height="0px"
+                        android:layout_weight="185"
+                        android:src="@drawable/front_left" />
+
+                    <ImageView
+                        android:id="@+id/vw_rear_left_door"
+                        style="@style/img_car_door"
+                        android:layout_height="0px"
+                        android:layout_weight="167"
+                        android:src="@drawable/rear_left" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llRightDoor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/vw_front_right_door"
+                        style="@style/img_car_door"
+                        android:layout_height="0px"
+                        android:layout_weight="185"
+                        android:src="@drawable/front_right" />
+
+                    <ImageView
+                        android:id="@+id/vw_rear_right_door"
+                        style="@style/img_car_door"
+                        android:layout_height="0px"
+                        android:layout_weight="167"
+                        android:src="@drawable/rear_right" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/vw_trunk_door"
+                    style="@style/img_car_door"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/trunk_door" />
+            </RelativeLayout>
+
+            <!-- |||||||||||||||||||||  车门状态button -->
+
+            <TextView
+                android:id="@+id/door_state"
+                style="@style/Button1"
+                android:layout_width="240px"
+                android:layout_height="62px"
+                android:layout_marginLeft="20px"
+                android:layout_marginRight="20px"
+                android:background="@drawable/vw_btn_on"
+                android:drawableStart="@drawable/vw_e"
+                android:paddingStart="10px"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <!--  ||||||||||||||||||||||||||||  linear right -->
+        <LinearLayout
+            android:id="@+id/llRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/vm_car_info_right_part_left_margin"
+            android:orientation="vertical">
+
+            <!-- <<<<<<<<<  right top  -->
+            <LinearLayout
+                android:id="@+id/llRightTop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <include
+                    android:id="@+id/vw_motor_speed"
+                    layout="@layout/vw_info_item2" />
+
+                <include
+                    android:id="@+id/vw_speed"
+                    layout="@layout/vw_info_item2" />
+
+                <include
+                    android:id="@+id/vw_mileage"
+                    layout="@layout/vw_info_item2" />
+
+            </LinearLayout>
+            <!-- >>>>>>>>>>  right top  -->
+
+
+            <!-- <<<<<<<<<<<  right bottom -->
+            <LinearLayout
+                android:id="@+id/llRightBottom"
+                android:layout_width="@dimen/vm_car_info_under_item_width"
+                android:layout_height="225px"
+                android:layout_marginRight="16px"
+                android:layout_marginTop="20px"
+                android:background="@drawable/info_bg"
+                android:orientation="horizontal"
+                android:paddingBottom="5px"
+                android:paddingTop="5px">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <include
+                        android:id="@+id/vw_remain_fuel"
+                        layout="@layout/vw_info_item1" />
+
+                    <include
+                        android:id="@+id/vw_seat_belt"
+                        layout="@layout/vw_info_item1_2" />
+
+                    <include
+                        android:id="@+id/vw_out_temperature"
+                        layout="@layout/vw_info_item1_2" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <include
+                        android:id="@+id/vw_brake_state"
+                        layout="@layout/vw_info_item1" />
+
+                    <include
+                        android:id="@+id/vw_lean_water"
+                        layout="@layout/vw_info_item1" />
+
+                    <include
+                        android:id="@+id/vw_battery_voltage"
+                        layout="@layout/vw_info_item1" />
+
+                    <include
+                        android:id="@+id/vw_trunk_state"
+                        layout="@layout/vw_info_item1"
+                        android:layout_width="0px"
+                        android:layout_height="0px" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

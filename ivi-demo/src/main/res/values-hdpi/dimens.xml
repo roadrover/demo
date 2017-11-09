@@ -1,0 +1,31 @@
+<resources>
+    <dimen name="font_text_96_size">33sp</dimen>
+    <dimen name="font_text_92_size">31sp</dimen>
+    <dimen name="font_text_90_size">30sp</dimen>
+    <dimen name="font_text_84_size">28sp</dimen>
+    <dimen name="font_text_80_size">26sp</dimen>
+    <dimen name="font_text_70_size">23sp</dimen>
+    <dimen name="font_text_62_size">21sp</dimen>
+    <dimen name="font_text_60_size">20sp</dimen>
+    <dimen name="font_text_58_size">19sp</dimen>
+    <dimen name="font_text_56_size">19sp</dimen>
+    <dimen name="font_text_54_size">18sp</dimen>
+    <dimen name="font_text_52_size">17sp</dimen>
+    <dimen name="font_text_50_size">17sp</dimen>
+    <dimen name="font_text_48_size">16sp</dimen>
+    <dimen name="font_text_46_size">15sp</dimen>
+    <dimen name="font_text_44_size">15sp</dimen>
+    <dimen name="font_text_42_size">14sp</dimen>
+    <dimen name="font_text_40_size">13sp</dimen>
+    <dimen name="font_text_38_size">13sp</dimen>
+    <dimen name="font_text_36_size">12sp</dimen>
+    <dimen name="font_text_34_size">11sp</dimen>
+    <dimen name="font_text_32_size">11sp</dimen>
+    <dimen name="font_text_30_size">10sp</dimen>
+    <dimen name="font_text_28_size">9sp</dimen>
+    <dimen name="font_text_26_size">9sp</dimen>
+    <dimen name="font_text_24_size">8sp</dimen>
+    <dimen name="font_text_22_size">8sp</dimen>
+    <dimen name="font_text_20_size">7sp</dimen>
+    <dimen name="activity_padding">15px</dimen>
+</resources>

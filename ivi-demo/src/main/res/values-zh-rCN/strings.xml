@@ -15,6 +15,7 @@
 
     <!-- main部分 -->
     <string name="car">原车</string>
+    <string name="vehicle_info">车载信息</string>
     <string name="system">系统</string>
     <string name="radio">收音机</string>
     <string name="bluetooth">蓝牙</string>
@@ -22,6 +23,7 @@
     <string name="audio">音频</string>
     <string name="avin">外部输入</string>
     <string name="settings">设置</string>
+    <string name="storage_device">存储设备</string>
     <string name="voice">语音</string>
     <string name="demo_not_allow_empty">演示程序不允许为空！</string>
     <string name="please_install_roadrover_services">请安装路畅科技服务程序！</string>
@@ -189,4 +191,38 @@
     <string name="tv_prev">控制TV上一曲</string>
     <string name="tv_next">控制TV下一曲</string>
     <string name="tv_touch">发送TV触摸</string>
+
+    <!-- 车载信息 -->
+    <string name="brake">手刹</string>
+    <string name="left_oil">剩余油量</string>
+    <string name="out_temp">室外温度</string>
+    <string name="battery_voltage">电池电压</string>
+    <string name="seat_belt">安全带</string>
+    <string name="trunk_state">后备箱</string>
+    <string name="brake_state">手刹制动</string>
+    <string name="lean_water">清洗液</string>
+    <string name="motor_speed">发动机转速</string>
+    <string name="speed2">瞬时速度</string>
+    <string name="mileage">行驶里程</string>
+    <string name="state_low">过低</string>
+    <string name="state_ok">正常</string>
+    <string name="state_battery_voltage">电池电量低！</string>
+    <string name="state_fuel_low">油余量过低,请加注！</string>
+    <string name="state_trunk_on">后备箱未关！</string>
+    <string name="state_brake_on">手刹未放！</string>
+    <string name="state_brake_ok">手刹正常！</string>
+    <string name="state_brake_off">手刹已拉起</string>
+    <string name="state_brake_off2">手刹未拉起！</string>
+    <string name="state_brake_hold">已拉起！</string>
+    <string name="state_belt_off">请系好安全带！</string>
+    <string name="state_lean_water">清洗液余量过低,请加注！</string>
+    <string name="front_right_door_open">右前门未关</string>
+    <string name="front_left_door_open">左前门未关</string>
+    <string name="rear_right_door_open">右后门未关</string>
+    <string name="rear_left_door_open">左后门未关</string>
+    <string name="trunk_door_open">后备箱未关</string>
+    <string name="trunk_engine_open">引擎盖未关</string>
+    <string name="all_door_closed">车门关闭完好</string>
+    <string name="ccd_info">在备份之前检查环境</string>
+    <string name="wg_door_off">关</string>
 </resources>
