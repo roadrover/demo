@@ -65,6 +65,12 @@ public class MainActivity extends BaseActivity {
                 startChildDemo(((IVIButton) v).getText(),
                         SettingsActivity.class);
             }
+        }), new IVIButton(this, "存储设备", new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startChildDemo(((IVIButton) v).getText(),
+                        StorageDeviceActivity.class);
+            }
         }), new IVIButton(this, R.string.voice, new View.OnClickListener() {
             @Override
             public void onClick(View v) {

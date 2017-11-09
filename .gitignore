@@ -63,3 +63,6 @@ gradle/
 gradle.properties
 gradlew.bat
 gradlew
+
+# Captures
+captures/

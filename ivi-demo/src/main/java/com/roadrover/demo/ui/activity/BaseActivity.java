@@ -98,6 +98,23 @@ public abstract class BaseActivity extends AppCompatActivity {
 
     /**
      * 添加一行按钮
+     * @param btns
+     */
+    public void addIVIButtons(List<IVIButton> btns) {
+        if (null != btns) {
+            final int size = btns.size();
+            if (size > 0) {
+                IVIButton[] btnArray = new IVIButton[size];
+                for (int i = 0;i < size;i++) {
+                    btnArray[i] = btns.get(i);
+                }
+                addIVIButtons(btnArray);
+            }
+        }
+    }
+
+    /**
+     * 添加一行按钮
      *
      * @param btns
      */

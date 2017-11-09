@@ -30,6 +30,7 @@
         <activity android:name=".ui.activity.SettingsJumpPageActivity"/>
         <activity android:name=".ui.activity.SettingsGetDataActivity"/>
         <activity android:name=".ui.activity.SettingsMonitorDataActivity"/>
+        <activity android:name=".ui.activity.StorageDeviceActivity"/>
         <activity android:name=".ui.activity.VoiceActivity" />
     </application>
 
