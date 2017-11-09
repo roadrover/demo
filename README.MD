@@ -40,6 +40,7 @@ Demo包含了原车、车载信息、系统、收音机、蓝牙、多媒体、�
 八、系统
 ----------------
 ![](screenshots/system/1.png)
+![](screenshots/system/2.png)
 
 九、收音机
 ----------------
