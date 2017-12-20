@@ -69,6 +69,11 @@ public class BluetoothActivity extends SDKActivity {
         public void onBtSignalValue(int value) throws RemoteException {
             showCallback("onBtSignalValue value:" + value);
         }
+
+        @Override
+        public void onPowerStatus(boolean value) throws RemoteException {
+            showCallback("onPowerStatus value:" + value);
+        }
     };
 
     // 蓝牙音乐控制回调

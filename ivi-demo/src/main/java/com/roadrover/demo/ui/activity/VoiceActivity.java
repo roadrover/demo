@@ -63,6 +63,11 @@ public class VoiceActivity extends SDKActivity {
         }
 
         @Override
+        public void playPause() {
+            showCallback("MediaListener playPause");
+        }
+
+        @Override
         public void setVolume(float volume) {
             showCallback("MediaListener setVolume volume:" + volume);
         }
@@ -110,6 +115,11 @@ public class VoiceActivity extends SDKActivity {
         @Override
         public void onVideoPermitChanged(boolean show) {
             showCallback("MediaListener onVideoPermitChanged show:" + show);
+        }
+
+        @Override
+        public void seekTo(int msec) {
+            showCallback("MediaListener seekTo msec:" + msec);
         }
     };
 
@@ -162,6 +172,11 @@ public class VoiceActivity extends SDKActivity {
         @Override
         public void play() {
             showCallback("RadioListener play");
+        }
+
+        @Override
+        public void playPause() {
+            showCallback("RadioListener playPause");
         }
 
         @Override

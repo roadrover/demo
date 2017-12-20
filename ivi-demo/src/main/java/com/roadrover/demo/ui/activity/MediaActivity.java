@@ -137,6 +137,11 @@ public class MediaActivity extends SDKActivity {
         }
 
         @Override
+        public void playPause() {
+            showCallback("playPause");
+        }
+
+        @Override
         public void setVolume(float volume) {
             showCallback("setVolume:" + volume);
         }
@@ -184,6 +189,11 @@ public class MediaActivity extends SDKActivity {
         @Override
         public void onVideoPermitChanged(boolean show) {
             showCallback("onVideoPermitChanged isShow:" + show);
+        }
+
+        @Override
+        public void seekTo(int msec) {
+            showCallback("seekTo msec:" + msec);
         }
     };
 

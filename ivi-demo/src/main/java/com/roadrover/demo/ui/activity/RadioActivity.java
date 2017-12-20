@@ -70,6 +70,11 @@ public class RadioActivity extends SDKActivity {
         }
 
         @Override
+        public void playPause() {
+            showCallback("playPause");
+        }
+
+        @Override
         public void stop() {
             showCallback("stop");
         }

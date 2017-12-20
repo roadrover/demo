@@ -7,6 +7,7 @@ import com.roadrover.demo.R;
 import com.roadrover.demo.ui.view.IVIButton;
 import com.roadrover.sdk.car.CarManager;
 import com.roadrover.sdk.car.IVICar;
+import com.roadrover.sdk.car.TirePressure;
 import com.roadrover.sdk.utils.Logcat;
 
 /**
@@ -138,6 +139,13 @@ public class CarActivity extends SDKActivity {
         @Override
         public void onFastReverseChanged(boolean on) {
             showCallback("onFastReverseChanged, on: " + on);
+        }
+
+        @Override
+        public void onTirePressureChanged(int id, int rawValue, int extraValue, int dotType) {
+            showCallback("onTirePressureChanged, id: " + TirePressure.ID.getName(id) +
+                    " rawValue: " + rawValue + " extraValue: " + extraValue +
+                    " dotType: " + dotType);
         }
     };
 
