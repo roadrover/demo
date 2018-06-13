@@ -28,8 +28,9 @@ public class SystemActivity extends SDKActivity {
 
     // system callback
     private ISystemCallback.Stub mSystemCallback = new ISystemCallback.Stub() {
+
         @Override
-        public void onOpenScreen() throws RemoteException {
+        public void onOpenScreen(int from) throws RemoteException {
             showCallback("onOpenScreen");
         }
 
@@ -76,6 +77,16 @@ public class SystemActivity extends SDKActivity {
         @Override
         public void onFloatBarVisibility(int visibility) throws RemoteException {
             showCallback("onFloatBarVisibility visibility:" + visibility);
+        }
+
+        @Override
+        public void onTboxChange(boolean isOpen) throws RemoteException {
+            showCallback("onTboxChange isOpen: " + isOpen);
+        }
+
+        @Override
+        public void onScreenProtection(boolean isEnterScreenProtection) throws RemoteException {
+            showCallback("onScreenProtection isEnterScreenProtection: " + isEnterScreenProtection);
         }
     };
 

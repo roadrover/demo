@@ -30,8 +30,14 @@ public class VoiceActivity extends SDKActivity {
     private IVoiceCallback.Stub mVoiceCallback = new IVoiceCallback.Stub() {
         @Override
         public void openVoiceApp() throws RemoteException {
-            // 打开语音服务
+            // 打开语音应用
             showCallback("openVoiceApp");
+        }
+
+        @Override
+        public void closeVoiceApp() throws RemoteException {
+            // 关闭语音应用
+            showCallback("closeVoiceApp");
         }
     };
 
@@ -108,7 +114,7 @@ public class VoiceActivity extends SDKActivity {
         }
 
         @Override
-        public void quitApp() {
+        public void quitApp(int quitSource) {
             showCallback("MediaListener quitApp" );
         }
 
@@ -222,6 +228,21 @@ public class VoiceActivity extends SDKActivity {
         @Override
         public void onRdsMaskChanged(int pi, int freq, int pty, int tp, int ta) {
             showCallback("onRdsMaskChanged pi:" + pi + " freq:" + freq + " pty:" + pty + " tp:" + tp + " ta:" + ta);
+        }
+
+        @Override
+        public void scanUp() {
+            showCallback("scanUp");
+        }
+
+        @Override
+        public void scanDown() {
+            showCallback("scanDown");
+        }
+
+        @Override
+        public void scanAll() {
+            showCallback("scanAll");
         }
     };
 

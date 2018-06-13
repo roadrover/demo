@@ -182,7 +182,7 @@ public class MediaActivity extends SDKActivity {
         }
 
         @Override
-        public void quitApp() {
+        public void quitApp(int quitSource) {
             showCallback("quitApp");
         }
 

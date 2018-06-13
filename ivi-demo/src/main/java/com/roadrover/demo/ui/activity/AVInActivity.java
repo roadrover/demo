@@ -445,7 +445,8 @@ public class AVInActivity extends SDKActivity {
         }
 
         // 打开摄像头
-        mCamera = mAVInManager.openAndroidCamera(AVIN_ID);
+//        mCamera = mAVInManager.openAndroidCamera(AVIN_ID);
+        mCamera = mAVInManager.openCamera(AVIN_ID);
     }
 
     /**

@@ -142,6 +142,11 @@ public class CarActivity extends SDKActivity {
         }
 
         @Override
+        public void onEventHardwareVersion(int status, String hardware, String supplier, String ecn, String date) {
+
+        }
+
+        @Override
         public void onTirePressureChanged(int id, int rawValue, int extraValue, int dotType) {
             showCallback("onTirePressureChanged, id: " + TirePressure.ID.getName(id) +
                     " rawValue: " + rawValue + " extraValue: " + extraValue +

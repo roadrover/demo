@@ -119,6 +119,21 @@ public class RadioActivity extends SDKActivity {
             showCallback("onRdsMaskChanged, pi: " + pi + " freq: " + freq +
                     " pty: " + pty + " tp: " + tp + " ta: " + ta);
         }
+
+        @Override
+        public void scanUp() {
+            showCallback("scanUp");
+        }
+
+        @Override
+        public void scanDown() {
+            showCallback("scanDown");
+        }
+
+        @Override
+        public void scanAll() {
+            showCallback("scanAll");
+        }
     };
 
     @Override
